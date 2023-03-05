@@ -9,14 +9,14 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-redefine.png">
     <!--- Seo Part-->
     
-    <link rel="canonical" href="http://example.com/2023/03/05/hello-world copy/"/>
+    <link rel="canonical" href="http://example.com/2023/03/05/webpack/"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     <meta property="og:type" content="article">
     <meta property="og:title" content="webpack">
     <meta property="og:description" content="Hexo Theme Redefine">
-    <meta property="og:url" content="http://example.com2023/03/05/hello-world copy/">
+    <meta property="og:url" content="http://example.com2023/03/05/webpack/">
     <meta property="og:image" content="/images/icon.png">
     <meta property="og:site_name" content="董俊贤">
     <meta name="twitter:card" content="summary_large_image">
@@ -48,7 +48,7 @@
     <script id="hexo-configurations">
     let REDEFINE = window.REDEFINE || {};
     REDEFINE.hexo_config = {"hostname":"example.com","root":"/","language":"en"};
-    REDEFINE.theme_config = {"toc":{"enable":true,"number":false,"expand_all":true,"init_open":true},"style":{"primary_color":"rgb(255, 0, 125)","avatar":"/images/12.jpg","favicon":"/images/icon.png","article_img_align":"center","right_side_width":"210px","content_max_width":"1000px","nav_color":{"left":"#f78736","right":"#367df7","transparency":35},"hover":{"shadow":true,"scale":true},"first_screen":{"enable":true,"background_image":{"light":"/images/d_blogs.jpeg","dark":"/images/l_blogs.jpg"},"title_color":{"light":"#000","dark":"#fff"},"description":"个人博客","custom_font":{"enable":false,"font_family":null,"font_url":null}},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":true}}},"local_search":{"enable":false,"preload":true},"code_block":{"copy":true,"style":"mac","custom_font":{"enable":false,"font_family":null,"font_url":null}},"pjax":{"enable":true},"lazyload":{"enable":true},"version":"1.1.6","friend_links":{"columns":2},"home_article":{"date_format":"auto","category":{"enable":true,"limit":3},"tag":{"enable":true,"limit":3}},"plugins":{"aplayer":{"enable":false,"audio":[{"name":null,"artist":null,"url":null,"cover":null},{"name":null,"artist":null,"url":null,"cover":null}]}}};
+    REDEFINE.theme_config = {"toc":{"enable":true,"number":false,"expand_all":true,"init_open":true},"style":{"primary_color":"rgb(255, 0, 125)","avatar":"/images/headerFile.jpg","favicon":"/images/icon.png","article_img_align":"center","right_side_width":"210px","content_max_width":"1000px","nav_color":{"left":"#f78736","right":"#367df7","transparency":35},"hover":{"shadow":true,"scale":true},"first_screen":{"enable":true,"background_image":{"light":"/images/d_blogs.jpeg","dark":"/images/l_blogs.jpg"},"title_color":{"light":"#000","dark":"#fff"},"description":"个人博客","custom_font":{"enable":false,"font_family":null,"font_url":null}},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":true}}},"local_search":{"enable":false,"preload":true},"code_block":{"copy":true,"style":"mac","custom_font":{"enable":false,"font_family":null,"font_url":null}},"pjax":{"enable":true},"lazyload":{"enable":true},"version":"1.1.6","friend_links":{"columns":2},"home_article":{"date_format":"auto","category":{"enable":true,"limit":3},"tag":{"enable":true,"limit":3}},"plugins":{"aplayer":{"enable":false,"audio":[{"name":null,"artist":null,"url":null,"cover":null},{"name":null,"artist":null,"url":null,"cover":null}]}}};
     REDEFINE.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"};
   </script>
     
@@ -68,7 +68,7 @@
     
     
     
-<meta name="generator" content="Hexo 5.4.2"></head>
+<meta name="generator" content="Hexo 6.3.0"></head>
 
 
 <body>
@@ -221,7 +221,7 @@
             
                 <div class="article-header">
                     <div class="avatar">
-                        <img src="/images/12.jpg">
+                        <img src="/images/headerFile.jpg">
                     </div>
                     <div class="info">
                         <div class="author">
@@ -234,15 +234,15 @@
                             <div class="article-meta-info">
     <span class="article-date article-meta-item">
         <i class="fa-regular fa-pen-fancy"></i>&nbsp;
-        <span class="pc">2023-03-05 00:28:33</span>
-        <span class="mobile">2023-03-05 00:28</span>
+        <span class="pc">2023-03-05 15:41:44</span>
+        <span class="mobile">2023-03-05 15:41</span>
         <span class="hover-info">Created</span>
     </span>
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="pc">2023-03-05 00:32:05</span>
-            <span class="mobile">2023-03-05 00:32</span>
+            <span class="pc">2023-03-05 13:50</span>
+            <span class="mobile">2023-03-05 13:50</span>
             <span class="hover-info">Updated</span>
         </span>
     
@@ -266,13 +266,14 @@
             
 
             <div class="article-content markdown-body">
-                <h1 id="Webpack"><a href="#Webpack" class="headerlink" title="Webpack"></a>Webpack</h1><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm init -y</span><br></pre></td></tr></table></figure></div>
+                <p>webpack 是前端资源加载&#x2F;打包工具，它将根据模块的依赖关系进行静态分析，然后将这些模块按照指定的规则生成对应的静态资源。在做 vue 项目和 react 项目时都会可能用到，当前最火的前端构建工具之一，把前端各种资源编译打包，最后输出：js 文件、css 文件、png 文件，可以减少文件资源的请求。</p>
+<h1 id="Webpack"><a href="#Webpack" class="headerlink" title="Webpack"></a>Webpack</h1><div class="highlight-container" data-rel="Cmd"><figure class="iseeu highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm init -y</span><br></pre></td></tr></table></figure></div>
 
 <ul>
 <li>开发时用：-D （–save -dev）</li>
 <li>开发，上线都用： -S (–save)</li>
 </ul>
-<h6 id="1-安装"><a href="#1-安装" class="headerlink" title="1.安装"></a>1.安装</h6><div class="highlight-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i webpack@<span class="number">5.42</span><span class="number">.1</span> webpack-cli@<span class="number">4.7</span><span class="number">.2</span> -D</span><br></pre></td></tr></table></figure></div>
+<h6 id="1-安装"><a href="#1-安装" class="headerlink" title="1.安装"></a>1.安装</h6><div class="highlight-container" data-rel="Cmd"><figure class="iseeu highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i webpack@<span class="number">5</span>.<span class="number">42</span>.<span class="number">1</span> webpack-cli@<span class="number">4</span>.<span class="number">7</span>.<span class="number">2</span> -D</span><br></pre></td></tr></table></figure></div>
 
 <h6 id="2-配置"><a href="#2-配置" class="headerlink" title="2.配置"></a>2.配置</h6><p>1.在项目根目创建 webpack.config .js 的 webpack 配置文件</p>
 <div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable language_">module</span>.<span class="property">exports</span> = &#123;</span><br><span class="line">  <span class="attr">mode</span>: <span class="string">&#x27;development&#x27;</span> <span class="comment">//mode可选development (开发用)和production（上线用）</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
@@ -286,13 +287,13 @@
 <div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> path = <span class="built_in">require</span>(<span class="string">&#x27;path&#x27;</span>)</span><br><span class="line"><span class="variable language_">module</span>.<span class="property">exports</span> = &#123;</span><br><span class="line">  <span class="comment">// 打包入口文件</span></span><br><span class="line">  <span class="attr">entry</span>: path.<span class="title function_">join</span>(__dirname, <span class="string">&#x27;./src/index.js&#x27;</span>),</span><br><span class="line">  <span class="attr">output</span>: &#123;</span><br><span class="line">    <span class="comment">// 输出文件的存放路径</span></span><br><span class="line">    <span class="attr">path</span>: path.<span class="title function_">join</span>(__dirname, <span class="string">&#x27;dist&#x27;</span>),</span><br><span class="line">    <span class="comment">//输出文件的名称</span></span><br><span class="line">    <span class="attr">filename</span>: <span class="string">&#x27;js/main.js&#x27;</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
 
 <h6 id="webpack-中的插件"><a href="#webpack-中的插件" class="headerlink" title="webpack 中的插件"></a>webpack 中的插件</h6><p><strong>webpack-dev-server（工具）</strong><br>当修改源代码，webpack 会自动进行打包和构建<br>webpack-dev-server 生成到内存中的文件，默认放到了项目的根目录在，而且是虚拟的，不可见的。<br><strong>安装</strong></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i webpack-dev-server@3.11.1 -D</span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Cmd"><figure class="iseeu highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i webpack-dev-server@<span class="number">3</span>.<span class="number">11</span>.<span class="number">1</span> -D</span><br></pre></td></tr></table></figure></div>
 
 <p><strong>配置</strong><br>修改 webpack.json-&gt;scripts 中的 dev 命令</p>
 <div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;scripts&quot;</span>: &#123;</span><br><span class="line">    <span class="string">&quot;dev&quot;</span>: <span class="string">&quot;webpack serve&quot;</span>,</span><br><span class="line">  &#125;,</span><br></pre></td></tr></table></figure></div>
 
 <p><strong>html-webpack-plugin（插件）</strong><br>可以通过此插件自定义 index.html 页面的内容<br><strong>安装</strong></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i html-webpack-plugin@5.3.2 -D</span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Cmd"><figure class="iseeu highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i html-webpack-plugin@<span class="number">5</span>.<span class="number">3</span>.<span class="number">2</span> -D</span><br></pre></td></tr></table></figure></div>
 
 <p>配置(在 webpack.config.js 中）</p>
 <div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="title class_">HtmlPlugin</span> = <span class="built_in">require</span>(<span class="string">&#x27;html-webpack-plugin&#x27;</span>)</span><br><span class="line"><span class="keyword">const</span> htmlPlugin = <span class="keyword">new</span> <span class="title class_">HtmlPlugin</span>(&#123;</span><br><span class="line">  <span class="attr">template</span>: <span class="string">&#x27;./src/index.html&#x27;</span>,</span><br><span class="line">  <span class="attr">filename</span>: <span class="string">&#x27;./index.html&#x27;</span></span><br><span class="line">&#125;)</span><br><span class="line"><span class="variable language_">module</span>.<span class="property">exports</span> = &#123;</span><br><span class="line">  <span class="attr">mode</span>: <span class="string">&#x27;development&#x27;</span>,</span><br><span class="line">  <span class="attr">plugins</span>: [htmlPlugin]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
@@ -301,19 +302,19 @@
 <div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">  <span class="attr">devServer</span>: &#123;</span><br><span class="line">        <span class="attr">open</span>: <span class="literal">true</span>,<span class="comment">//初次打包后打开浏览器</span></span><br><span class="line">        <span class="attr">host</span>: <span class="string">&#x27;127.0.0.1&#x27;</span>,<span class="comment">//打包所使用的主机地址</span></span><br><span class="line">        <span class="attr">port</span>: <span class="number">80</span>,<span class="comment">//打包所用端口</span></span><br><span class="line">    &#125;,</span><br></pre></td></tr></table></figure></div>
 
 <h6 id="loader-加载器"><a href="#loader-加载器" class="headerlink" title="loader 加载器"></a>loader 加载器</h6><p><strong>安装</strong></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i style-loader@3.0.0 css-loader@5.2.6 -D</span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Cmd"><figure class="iseeu highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i style-loader@<span class="number">3</span>.<span class="number">0</span>.<span class="number">0</span> css-loader@<span class="number">5</span>.<span class="number">2</span>.<span class="number">6</span> -D</span><br></pre></td></tr></table></figure></div>
 
 <p>在 webpack.config.js 的 moducle-&gt;rules 数据中添加 loader</p>
 <div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">module</span>: &#123;</span><br><span class="line">  <span class="attr">rules</span>: [</span><br><span class="line">    &#123;</span><br><span class="line">      <span class="attr">test</span>: <span class="regexp">/\.css$/</span>,</span><br><span class="line">      <span class="attr">use</span>: [<span class="string">&#x27;style-loader&#x27;</span>, <span class="string">&#x27;css-loader&#x27;</span>]</span><br><span class="line">    &#125;</span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
 
 <h6 id="打包处理-less-文件"><a href="#打包处理-less-文件" class="headerlink" title="打包处理 less 文件"></a>打包处理 less 文件</h6><p><strong>安装</strong></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i less-loader@10.0.1 less@4.1.1 -D</span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Cmd"><figure class="iseeu highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i less-loader@<span class="number">10</span>.<span class="number">0</span>.<span class="number">1</span> less@<span class="number">4</span>.<span class="number">1</span>.<span class="number">1</span> -D</span><br></pre></td></tr></table></figure></div>
 
 <p><strong>配置</strong><br>在 webpack.config.js 的 module-&gt;rules 数据中添加 loader 规则</p>
 <div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">mouder</span>: &#123;</span><br><span class="line">  <span class="attr">rules</span>: [</span><br><span class="line">    &#123;</span><br><span class="line">      <span class="attr">test</span>: <span class="regexp">/\.less$/</span>,</span><br><span class="line">      <span class="attr">use</span>: [<span class="string">&#x27;style-loader&#x27;</span>, <span class="string">&#x27;css-loader&#x27;</span>, <span class="string">&#x27;less-loader&#x27;</span>]</span><br><span class="line">    &#125;</span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
 
 <h6 id="打包处理样式中-url-路径相关的文件"><a href="#打包处理样式中-url-路径相关的文件" class="headerlink" title="打包处理样式中 url 路径相关的文件"></a>打包处理样式中 url 路径相关的文件</h6><p><strong>安装</strong></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i url0loader@4.1.1file-loader@6.2.0 -D</span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Cmd"><figure class="iseeu highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i url0loader@<span class="number">4</span>.<span class="number">1</span>.<span class="number">1</span>file-loader@<span class="number">6</span>.<span class="number">2</span>.<span class="number">0</span> -D</span><br></pre></td></tr></table></figure></div>
 
 <p><strong>配置</strong><br>在 webpack.config.js 的 module-&gt;rules 数组中添加 loader</p>
 <div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">mouder</span>: &#123;</span><br><span class="line">  <span class="attr">rules</span>: [</span><br><span class="line">    &#123;</span><br><span class="line">      <span class="attr">test</span>: <span class="regexp">/\.jpg|png|gif$/</span>,</span><br><span class="line">      <span class="attr">use</span>: [</span><br><span class="line">        <span class="string">&#x27;url-loader?                                              limit=170&amp;outputPath=images&#x27;</span></span><br><span class="line">      ]</span><br><span class="line">    &#125;</span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
@@ -330,11 +331,11 @@
 <h3 id="打包发布"><a href="#打包发布" class="headerlink" title="打包发布"></a>打包发布</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"> <span class="string">&quot;scripts&quot;</span>: &#123;</span><br><span class="line">    <span class="string">&quot;dev&quot;</span>: <span class="string">&quot;webpack serve&quot;</span>,</span><br><span class="line">    <span class="string">&quot;bulid&quot;</span>: <span class="string">&quot;webpack --mode production&quot;</span><span class="comment">//发布</span></span><br><span class="line">  &#125;,</span><br></pre></td></tr></table></figure></div>
 
 <p>通过–model 指定参数会覆盖 webpack.config.js 中的 model 选项</p>
-<p>把 js 文件统一生成到 js 目录中<br>在 webpack.config.js 中 output 中的 filename‘js/bundle.js’<br>把 images 文件放在 image 目录中<br>修改 webpack.config.js 中的 url-loader 新增 outputPath 选项可指定图片文件的输出路径</p>
+<p>把 js 文件统一生成到 js 目录中<br>在 webpack.config.js 中 output 中的 filename‘js&#x2F;bundle.js’<br>把 images 文件放在 image 目录中<br>修改 webpack.config.js 中的 url-loader 新增 outputPath 选项可指定图片文件的输出路径</p>
 <div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">        <span class="attr">test</span>: <span class="regexp">/\.jpg|png|gif$/</span>,</span><br><span class="line">        <span class="comment">// use: [&#x27;url-loader?limit=170&amp;outputPath=images&#x27;]</span></span><br><span class="line">        <span class="attr">use</span>: &#123;</span><br><span class="line">          <span class="attr">loader</span>: <span class="string">&#x27;url-loader&#x27;</span>,</span><br><span class="line">          <span class="attr">options</span>: &#123;</span><br><span class="line">            <span class="attr">limit</span>: <span class="number">170</span>,</span><br><span class="line">            <span class="attr">outputPath</span>: <span class="string">&#x27;images&#x27;</span></span><br><span class="line">          &#125;</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;,</span><br></pre></td></tr></table></figure></div>
 
 <h5 id="打包自动清理-dist-下的旧文件"><a href="#打包自动清理-dist-下的旧文件" class="headerlink" title="打包自动清理 dist 下的旧文件"></a>打包自动清理 dist 下的旧文件</h5><p>安装</p>
-<div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i clean-webpack-plugin@<span class="number">3.0</span><span class="number">.0</span> -D</span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Cmd"><figure class="iseeu highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i clean-webpack-plugin@<span class="number">3</span>.<span class="number">0</span>.<span class="number">0</span> -D</span><br></pre></td></tr></table></figure></div>
 
 <p>配置<br>按需导入插件,得到插件的构造函数，创建插件的实例化对象</p>
 <div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> &#123; <span class="title class_">CleanWebpackPlugin</span> &#125; = <span class="built_in">require</span>(<span class="string">&#x27;clean-webpack-plugin&#x27;</span>)</span><br><span class="line"><span class="keyword">const</span> cleanPlugin = <span class="keyword">new</span> <span class="title class_">CleanWebpackPlugin</span>()</span><br></pre></td></tr></table></figure></div>
@@ -352,9 +353,9 @@
     <ul>
         <li>Post title：webpack</li>
         <li>Post author：小贤</li>
-        <li>Create time：2023-03-05 00:28:33</li>
+        <li>Create time：2023-03-05 15:41:44</li>
         <li>
-            Post link：https://redefine.ohevan.com/2023/03/05/hello-world copy/
+            Post link：https://xian626.github.io/2023/03/05/webpack/
         </li>
         <li>
             Copyright Notice：All articles in this blog are licensed under <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> unless stating additionally.
@@ -376,7 +377,7 @@
                         <div class="article-next">
                             <a class="next"
                             rel="next"
-                            href="/2023/03/04/hello-world/"
+                            href="/2023/03/04/Typescript/"
                             >
                                 <span class="title flex-center">
                                     <span class="post-nav-title-item">Typescript</span>
